@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>V.2 Сайт Георгия (тест дизайн)</title>
+</head>
+
+<body id="bodylook" class="body">
+
+
+    <div class="wrapper">
+        <header id="header" class="header">
+            <div class="header__body container">
+                <a id="head__log" href="index.html" class="header__logo">
+                    <img src="img/menu_icon.png" alt="">
+                </a>
+                <div id="he_bu" class="header__burger">
+                    <span></span>
+                </div>
+
+                <nav id="he_me" class="header__menu">
+                    <ul class="header__list">
+                        <li><a href="index.html" class="header__link">
+                                <div class="hover__header__link"></div>Главная
+                            </a></li>
+                        <li><a href="#" class="header__link">
+                                <div class="hover__header__link"></div>Товары
+                            </a></li>
+                        <li><a href="contact.html" class="header__link">
+                                <div class="hover__header__link"></div>Контакты
+                            </a></li>
+                        <li><a href="about.html" class="header__link">
+                                <div class="hover__header__link"></div>О&nbsp;нас
+                            </a></li>
+                    </ul>
+                    <div class="logo__messeger">
+                        <div>
+                            <a href="https://t.me/Jorj515"><img src="img/tg.png" alt="Фото"></a>
+                            <a href="https://wa.me/+79213934428"><img src="img/wapp.png" alt="Фото"></a>
+                            <a href="tel:+79213934428"><img src="img/phn.png" alt="Фото"></a>
+                        </div>
+                    </div>
+
+                </nav>
+                <div id="bo_bu" class="boot__mobile__menu header__burger"><span></span></div>
+            </div>
+
+        </header>
+        <div id="con" class="content">
+            <div class="container">
+                <div class="header__boot">
+                    <div>Время работы: 10.00-22.00</div>
+                    <div>Адрес: Высотная улица, 1, Санкт-Петербург, 197229</div>
+                </div>
+                <main>
+                    <div class="form__salle">
+                        <div class="salle__page">
+                            <div class="video__salle__cont"><video src="video/Video__salle.mp4" autoplay="autoplay"
+                                    loop="loop" muted="" playsinline="playsinline" class=" video__salle"></video>
+                                <span class="video__s__p ">Наше производство</span>
+                            </div>
+
+                            <div class="salle__button_position">
+                                <div>Мы производим и продаем, одно, другое, третье. Из материалов таких-то.</div>
+                                <a href="#popup" class="salle__button">Сделать&nbspзаказ</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="items__block">
+
+                    </div>
+            </div>
+
+            </main>
+            <!-- ТЕСТ -->
+
+
+            <!-- ТЕСТ -->
+        </div>
+
+
+        <div id="popup" class="popup">
+            <a href="#header" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#header" class="popup__close">X</a>
+                    <div class="form">
+                        <form action="#" id="form" class="form__body">
+                            <h1 class="form__title">Отправка данных на почту</h1>
+                            <div class="form__item">
+                                <label for="formName" class="form__label">Имя*:</label>
+                                <input id="formName" type="text" name="name" class="form__input _req">
+                            </div>
+                            <div class="form__item">
+                                <label for="formEmail" class="form__label">E-mail*:</label>
+                                <input id="formEmail" type="text" name="email" class="form__input _req _email">
+                            </div>
+                            <div class="form__item">
+                                <label for="formMassage" class="form__label">Сообщение:</label>
+                                <textarea name="massage" id="formMassage" class="form__input"></textarea>
+                            </div>
+                            <div class="form__item">
+                                <div class="file">
+                                    <div class="file__item">
+
+
+                                    </div>
+                                    <div id="formPreview" class="file__preview"></div>
+                                </div>
+                            </div>
+                            <div class="form__item">
+                                <div class="checkbox">
+                                    <input id="formAgreement" checked type="checkbox" name="agreement"
+                                        class="checkbox__input _req">
+                                    <label for="formAgreement" class="checkbox__label"><span>Я даю согласие на
+                                            обработку
+                                            персоональных
+                                            данных в сооветствии с <a href="#">Условиями</a>*</span></label>
+                                </div>
+                            </div>
+                            <button type="submit" class="form__button">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
